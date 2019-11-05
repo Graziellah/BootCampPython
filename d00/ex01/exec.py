@@ -11,5 +11,5 @@ while i > 0:
     finalString += arg[::-1]
     if i != 1:
         finalString += ' '
-    i-= 1
+    i -= 1
 print(finalString)

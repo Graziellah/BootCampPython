@@ -2,10 +2,10 @@ phrase = "The right format"
 
 lengthPhrase = len(phrase)
 
-displayingLine=""
+displayingLine = ""
 
 for i in range(1, 42 - lengthPhrase):
-    displayingLine+="-"
+    displayingLine += "-"
 
 displayingLine += phrase
 

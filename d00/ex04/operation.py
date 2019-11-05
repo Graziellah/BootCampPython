@@ -10,9 +10,10 @@ def operations(nb1, nb2):
     except ZeroDivisionError:
         print("Quotient :ERROR (div by zero)")
     try:
-        print("Reminder:", nb1%nb2)
+        print("Reminder:", nb1 % nb2)
     except ZeroDivisionError:
         print("Reminder: ERROR (modulo by zero)")
+
 
 try:
     nbArgs = len(sys.argv)
@@ -22,8 +23,8 @@ try:
         else:
             raise TypeError("only numbers")
     else:
-        raise ValueError(" too many arguments")
-except (TypeError, ValueError) as err :
-    print("InputError:" ,err)
+        raise ValueError("too many arguments")
+except (TypeError, ValueError) as err:
+    print("InputError: ", err)
     print("Usage: python operations.py")
     print("Exemple: \n \tpython operations 10 3")

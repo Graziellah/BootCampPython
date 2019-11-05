@@ -10,6 +10,7 @@ def filtwords(string, maxLength):
             finalElem.append(splittedString[i])
     return finalElem
 
+
 if len(sys.argv) == 3 and not sys.argv[1].isnumeric():
     rest = filtwords(sys.argv[1],  int(sys.argv[2]))
     print(rest)
