@@ -1,5 +1,4 @@
 import sys
-import argparse
 
 nbArgs = len(sys.argv)
 if nbArgs == 1:

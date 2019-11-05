@@ -5,12 +5,32 @@ pythonPath=`which python`
 goodVersionRegex="Python 3.7*"
 yes="yes"
 no="no"
-minicondaPath="~/miniconda3/"
-pythonPath="~/miniconda3/bin"
+minicondaPath="/sgoinfre/goinfre/Perso/ghippoda/miniconda3"
+pythonPath="/sgoinfre/goinfre/Perso/ghippoda/miniconda3/bin"
+
+installPython () {
+	curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh > ~/miniconda.sh
+	bash ~/miniconda.sh -b -p $minicondaPath
+	export PATH=$pythonPath:$PATH
+	echo "Python has been installed"
+}
+
+removePython () {
+	rm -rf minicondaPath
+	rm  -rf $minicondaPath
+	rm  ~/miniconda.sh
+	echo "Python has been remove"
+}
 
 if [[ $pythonVersion =~ $goodVersionRegex ]] 
 then
 	echo "Python is already installed, do you want to reinstall it ?";
+	echo "[yes|no]>> "
+	read response
+	while test "$response" != "yes" || "$response" != "no"
+	do	echo "[yes|no]>> "
+		read response
+	done
 	#while [ -z $response ] || [ $response != "yes" ] || [  $response != "no" ]
 	#do
 	#	read -p "[yes|no]>" response
@@ -33,20 +53,13 @@ then
 	#done
 	#if [ "$ans" == "yes" ]
 	#then
-	rm -rf minicondaPath
-	rm  -rf /Users/graziella/miniconda/
-	rm  miniconda.sh
-	echo "Python has been remove"
-	ls $HOME
-	curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh > ~/miniconda.sh
-	bash ~/miniconda.sh -b -p $HOME/miniconda
-	export PATH="$HOME/miniconda/bin:$PATH"
-	echo "Pyhon has been installed"
+#	ls $HOME
 #	else
 #		echo "exit"
 #	fi
 	#echo "Ok votre response est $ans";
 else
-		echo "Not good";
+	removePython
+	installPython
 fi
 echo "$pythonVersion"

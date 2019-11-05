@@ -24,9 +24,10 @@ class Guess:
                     print(ans)
                 else:
                     print('You won in ', self.trial, 'attemps!')
+                    print("Let's play again")
                 self.initSeed()
         elif number == 'exit':
-            print('Good bye')
+            print('Good bye!')
             exit()
         else:
             print("That's not a number.")
@@ -38,8 +39,8 @@ class Guess:
 
 def main():
     print('This is an interactive guessing game!')
-    rule = 'You have to enter a number between"
-    rule + = " 1 and 99 to find out the secret number.'
+    rule = 'You have to enter a number between'
+    rule += ' 1 and 99 to find out the secret number.'
     print(rule)
     print("Type 'exit' to end the game.")
     print('Good Luck')

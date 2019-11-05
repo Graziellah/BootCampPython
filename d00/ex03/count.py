@@ -12,6 +12,6 @@ def text_analyzer(text=""):
         print("- ",  sum(1 for c in text if c.isupper()), " upper letters")
         print("- ", sum(1 for c in text if c.islower()), " lower letters")
         print("- ", count(text, set(string.punctuation)), " punctuation marks")
-        print("- ", sum(1 for c in text if c.isspace()), " space")
+        print("- ", sum(1 for c in text if c.isspace()), " spaces")
     else:
         print("What is the text to analyse?")

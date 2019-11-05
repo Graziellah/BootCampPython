@@ -49,11 +49,11 @@ class Cookbook:
             if name in self.cookbook:
                 prep_time = self.cookbook[name]['prep_time']
                 print("Recipe for ", name)
-                print("ingredients list", self.cookbook[name]['ingredients'])
+                print("Ingredients list", self.cookbook[name]['ingredients'])
                 print("To be eaten for ", self.cookbook[name]['meal'])
                 print("Takes ", prep_time, "to be cooking.")
             else:
-                raise ValueError("This is not ", name, " in the cookbook")
+                raise ValueError("There is not ", name, " in the cookbook")
         except ValueError as err:
             print(err)
 
@@ -61,23 +61,23 @@ class Cookbook:
         if name in self.cookbook:
             del self.cookbook[name]
 
-    def addNewRecipe(self, name, ingredients, mealType, prep_time):
+    def addNewRecipe(self, name, ingredients, meal, prep_time):
         try:
             if name in self.cookbook:
                 raise KeyError("Recipe exist in cookbook")
             else:
-                if isinstance(prep_time, int)
-                and isinstance(ingredients, list)
-                and isinstance(name, str) and isinstance(name, str):
+                if prep_time.isnumeric()\
+                    and isinstance(ingredients, list) \
+                        and isinstance(name, str) and isinstance(meal, str):
                     self.cookbook[name] = {}
                     self.cookbook[name]['ingredients'] = ingredients
-                    self.cookbook[name]['meal'] = mealType
-                    self.cookbook[name]['prep_time'] = prep_time
+                    self.cookbook[name]['meal'] = meal
+                    self.cookbook[name]['prep_time'] = int(prep_time)
                 else:
-                    check = "Verify your parameter\nUsage : " +
-                    "addNewRecipe(name, ingredients, mealType, prep_time)\n" +
-                    "name, mealType => str \ningredients => list \n" +
-                    "prep_time => int"
+                    check = "Verify your parameter\nUsage : addNewRecipe"
+                    check += "(name, ingredients, mealType, prep_time)"
+                    check += "\nname, mealType => str \ningredients => list \n"
+                    check += "prep_time => int"
                     raise ValueError(check)
         except (KeyError, ValueError) as err:
             print(err)
@@ -88,7 +88,7 @@ class Cookbook:
 
 
 def printUsage():
-    print(bcolors.OKBLUE + "")
+    print(bcolors.OKBLUE, end="")
     print("Please select an option by typing the corresponding number:")
     print("1: Add a recipe")
     print("2: Delete a recipe")
@@ -111,7 +111,8 @@ def main():
                     ingdients = input("Please enter recipe ingredients\n >> ")
                     mealType = input("Please enter recipe meal type\n >> ")
                     time = input("Please enter recipe preparation time\n >> ")
-                    livre.addNewRecipe(recipeName, ingdients, mealType, time)
+                    ingdtArray = ingdients.split()
+                    livre.addNewRecipe(recipeName, ingdtArray, mealType, time)
                 if choice == 2:
                     recipeToDelete = input("Please enter recipe name\n >> ")
                     if isinstance(recipeNameToDelete, str):
@@ -126,7 +127,7 @@ def main():
                     print("Cookbook is closed")
                     exit()
             else:
-                e = "This option does not exist"
+                e = "This option does not exist "
                 e += "please type the corresponding number."
                 print(bcolors.WARNING + "")
                 print(e)
