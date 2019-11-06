@@ -11,7 +11,7 @@ def filtwords(string, maxLength):
     return finalElem
 
 
-if len(sys.argv) == 3 and not sys.argv[1].isnumeric():
+if len(sys.argv) == 3 and isinstance(sys.argv[1], str) and sys.argv[2].isnumeric():
     rest = filtwords(sys.argv[1],  int(sys.argv[2]))
     print(rest)
 else:

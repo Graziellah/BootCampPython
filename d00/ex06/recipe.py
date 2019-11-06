@@ -115,7 +115,7 @@ def main():
                     livre.addNewRecipe(recipeName, ingdtArray, mealType, time)
                 if choice == 2:
                     recipeToDelete = input("Please enter recipe name\n >> ")
-                    if isinstance(recipeNameToDelete, str):
+                    if isinstance(recipeToDelete, str):
                         livre.deleteRecipe(recipeToDelete)
                 if choice == 3:
                     recipeName = input("Please enter recipe name\n>> ")

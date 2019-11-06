@@ -33,4 +33,4 @@ class Book:
             self.recipes_list[recipe.recipe_type][recipe.name] = recipe
             self.last_update = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
         else:
-            print("Not ok")
+            raise ValueError("Argument is not a Recipe instance")

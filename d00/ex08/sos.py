@@ -35,8 +35,10 @@ def main():
     if nb > 1:
         for i in range(1, nb):
             result = encrypt(sys.argv[i].upper())
-            print(result)
-
+            print(result , end='')
+            if i != nb - 1:
+                print(" / ", end="")
+    print("")
 
 if __name__ == '__main__':
     main()

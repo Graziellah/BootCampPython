@@ -1,6 +1,12 @@
 from time import sleep
 from progress.bar import FillingSquaresBar
 
+try:
+    import progress
+except:
+      sys.exit("""You need foo!
+                install it from https://pypi.org/project/progress/
+                or run pip install foo.""")
 
 listy = range(10000)
 ret = 0

@@ -1,37 +1,13 @@
 class Recipe:
-    def __init__(self, name, cooking_level, cookTime, ingredients, description, recipe_type):
+    def __init__(self, name, cooklvl, cookTime, ingdts, descript, recipe_type):
         self.name = name
-        self.cooking_level = cooking_level
+        self.cooking_level = cooklvl
         self.cooking_time = cookTime
-        self.ingredients = ingredients
-        self.description = description
+        self.ingredients = ingdts
+        self.description = descript
         self.recipe_type = recipe_type
         self.valueIsOK = True
-#        self.checkValue()
-    
-    @property
-    def cooking_level(self):
-        print("Getting Value")
-        return self._cooking_level
-
-    @cooking_level.setter
-    def cooking_level(self, cooking_level):
-        print("Setting Value")
-        if isinstance(self.cooking_level, int):
-            if self.cooking_level in range(1, 6):
-                self._cooking_level = cooking_level
-        self.valueIsOK = False
-        error = "Cooking Level " + str(self.cooking_level) + " is not valid"
-        error += "Please enter a number between 1 and 5"
-        raise ValueError(error)
-
-    @property
-    def name(self):
-        return self._name
-
-    @name.setter
-    def name(self, name):
-        self._name = name
+        self.checkValue()
 
     def checkValue(self):
         self.checkString(self.name, "name")

@@ -9,15 +9,14 @@ minicondaPath="/sgoinfre/goinfre/Perso/ghippoda/miniconda3"
 pythonPath="/sgoinfre/goinfre/Perso/ghippoda/miniconda3/bin"
 
 installPython () {
-	curl -s https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh > ~/miniconda.sh
-	bash ~/miniconda.sh -b -p $minicondaPath
-	export PATH=$pythonPath:$PATH
+	curl -s https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh  > ~/miniconda.sh
+	bash ~/miniconda.sh -p -b $minicondaPath > /dev/null
+	$bash export PATH=$pythonPath:$PATH
 	echo "Python has been installed"
 }
 
 removePython () {
-	rm -rf minicondaPath
-	rm  -rf $minicondaPath
+	rm -rf $minicondaPath
 	rm  ~/miniconda.sh
 	#echo "Python has been remove"
 }

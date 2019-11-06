@@ -45,3 +45,243 @@ INFO:root:add_water
 (root)Running: start machine [exec-time=0.0] 
 (root)Running: start machine [exec-time=0.0] 
 (root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time={}] 
+(root)Running: boil_water 
+(root)Running: make_coffe 
+(root)Running: add_water 
+(root)Running: start machine [exec-time={}] 
+(root)Running: boil_water 
+(root)Running: make_coffe 
+(root)Running: add_water 
+(e1r2p23.42.fr)Running: start machine [exec-time={}] 
+(e1r2p23.42.fr)Running: boil_water 
+(e1r2p23.42.fr)Running: make_coffe 
+(e1r2p23.42.fr)Running: add_water 
+(ghippoda)Running: start machine [exec-time={}] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: add_water 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: add_water 
+(ghippoda)Running: start machine [exec-time=0] 
+(ghippoda)Running: start machine [exec-time=2] 
+(ghippoda)Running: start machine [exec-time=4] 
+(ghippoda)Running: start machine [exec-time=6] 
+(ghippoda)Running: start machine [exec-time=8] 
+(ghippoda)Running: start machine [exec-time=8] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: add_water 
+(ghippoda)Running: start machine [exec-time=0.0] 
+(ghippoda)Running: start machine [exec-time=2.06] 
+(ghippoda)Running: start machine [exec-time=4.09] 
+(ghippoda)Running: start machine [exec-time=6.15] 
+(ghippoda)Running: start machine [exec-time=8.21] 
+(ghippoda)Running: start machine [exec-time=8.21] 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time=0.0] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time=2.05] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time=4.07] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time=6.11] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time=8.16] 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time=8.16] 
+(ghippoda)Running: add_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 2000 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 4000 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 6000 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 8000 ms] 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 8000 ms] 
+(ghippoda)Running: add_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 2029 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 4100 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 6140 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 8210 ms] 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 8210 ms] 
+(ghippoda)Running: add_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 2070 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 4120 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 6160 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 8210 ms] 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 8210 ms] 
+(ghippoda)Running: add_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: boil_water 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: make_coffe 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: add_water 
+(ghippoda)Running: make_coffe [exec-time=0.0] 
+(ghippoda)Running: start machine [exec-time = 0 ms] 
+(ghippoda)Running: boil_water [exec-time=2060.0] 
+(ghippoda)Running: make_coffe [exec-time=2.06] 
+(ghippoda)Running: start machine [exec-time = 2060 ms] 
+(ghippoda)Running: boil_water [exec-time=4120.0] 
+(ghippoda)Running: make_coffe [exec-time=4.12] 
+(ghippoda)Running: start machine [exec-time = 4120 ms] 
+(ghippoda)Running: boil_water [exec-time=6160.0] 
+(ghippoda)Running: make_coffe [exec-time=6.16] 
+(ghippoda)Running: start machine [exec-time = 6160 ms] 
+(ghippoda)Running: boil_water [exec-time=8230.0] 
+(ghippoda)Running: make_coffe [exec-time=8.23] 
+(ghippoda)Running: start machine [exec-time = 8230 ms] 
+(ghippoda)Running: make_coffe [exec-time=8.23] 
+(ghippoda)Running: start machine [exec-time = 8230 ms] 
+(ghippoda)Running: add_water [exec-time=8.23] 
+(ghippoda)Running: make_coffe [exec-time=0.0] 
+(ghippoda)Running: start machine [exec-time = 0.0 ms] 
+(ghippoda)Running: boil_water [exec-time=2.05] 
+(ghippoda)Running: make_coffe [exec-time=2.05] 
+(ghippoda)Running: start machine [exec-time = 2.05 ms] 
+(ghippoda)Running: boil_water [exec-time=4.12] 
+(ghippoda)Running: make_coffe [exec-time=4.12] 
+(ghippoda)Running: start machine [exec-time = 4.12 ms] 
+(ghippoda)Running: boil_water [exec-time=6.18] 
+(ghippoda)Running: make_coffe [exec-time=6.18] 
+(ghippoda)Running: start machine [exec-time = 6.18 ms] 
+(ghippoda)Running: boil_water [exec-time=8.24] 
+(ghippoda)Running: make_coffe [exec-time=8.24] 
+(ghippoda)Running: start machine [exec-time = 8.24 ms] 
+(ghippoda)Running: make_coffe [exec-time=8.24] 
+(ghippoda)Running: start machine [exec-time = 8.24 ms] 
+(ghippoda)Running: add_water [exec-time=8.24] 
+(ghippoda)Running: make_coffe [exec-time=0.0] 
+(ghippoda)Running: start machine [exec-time = 0.0 ms] 
+(ghippoda)Running: boil_water [exec-time=2.066] 
+(ghippoda)Running: make_coffe [exec-time=2.066] 
+(ghippoda)Running: start machine [exec-time = 2.066 ms] 
+(ghippoda)Running: boil_water [exec-time=4.131] 
+(ghippoda)Running: make_coffe [exec-time=4.131] 
+(ghippoda)Running: start machine [exec-time = 4.131 ms] 
+(ghippoda)Running: boil_water [exec-time=6.202] 
+(ghippoda)Running: make_coffe [exec-time=6.203] 
+(ghippoda)Running: start machine [exec-time = 6.203 ms] 
+(ghippoda)Running: boil_water [exec-time=8.271] 
+(ghippoda)Running: make_coffe [exec-time=8.271] 
+(ghippoda)Running: start machine [exec-time = 8.271 ms] 
+(ghippoda)Running: make_coffe [exec-time=8.271] 
+(ghippoda)Running: start machine [exec-time = 8.271 ms] 
+(ghippoda)Running: add_water [exec-time=8.271] 
+(ghippoda)Running: make_coffe [exec-time=0.0] 
+(ghippoda)Running: start machine [exec-time = 1.0 ms] 
+(ghippoda)Running: boil_water [exec-time=2039.0000000000002] 
+(ghippoda)Running: make_coffe [exec-time=2040.0] 
+(ghippoda)Running: start machine [exec-time = 2040.0 ms] 
+(ghippoda)Running: boil_water [exec-time=4093.0] 
+(ghippoda)Running: make_coffe [exec-time=4093.0] 
+(ghippoda)Running: start machine [exec-time = 4093.0 ms] 
+(ghippoda)Running: boil_water [exec-time=6157.0] 
+(ghippoda)Running: make_coffe [exec-time=6157.0] 
+(ghippoda)Running: start machine [exec-time = 6157.0 ms] 
+(ghippoda)Running: boil_water [exec-time=8221.0] 
+(ghippoda)Running: make_coffe [exec-time=8221.0] 
+(ghippoda)Running: start machine [exec-time = 8221.0 ms] 
+(ghippoda)Running: make_coffe [exec-time=8221.0] 
+(ghippoda)Running: start machine [exec-time = 8222.0 ms] 
+(ghippoda)Running: add_water [exec-time=8222.0] 
+(ghippoda)Running: make_coffe [exec-time=0.0] 
+(ghippoda)Running: start machine [exec-time = 0.0 ms] 
+(ghippoda)Running: boil_water [exec-time=0.002058] 
+(ghippoda)Running: make_coffe [exec-time=0.002058] 
+(ghippoda)Running: start machine [exec-time = 0.002058 ms] 
+(ghippoda)Running: boil_water [exec-time=0.004124] 
+(ghippoda)Running: make_coffe [exec-time=0.004124] 
+(ghippoda)Running: start machine [exec-time = 0.004124 ms] 
+(ghippoda)Running: boil_water [exec-time=0.006196] 
+(ghippoda)Running: make_coffe [exec-time=0.006196] 
+(ghippoda)Running: start machine [exec-time = 0.006196 ms] 
+(ghippoda)Running: boil_water [exec-time=0.008257] 
+(ghippoda)Running: make_coffe [exec-time=0.008257] 
+(ghippoda)Running: start machine [exec-time = 0.008257 ms] 
+(ghippoda)Running: make_coffe [exec-time=0.008257] 
+(ghippoda)Running: start machine [exec-time = 0.008257 ms] 
+(ghippoda)Running: add_water [exec-time=0.008257] 
+(ghippoda)Running: STARTMACHINE [exec-time = 0.0 ms] 
+(ghippoda)Running: make_coffe [exec-time=1e-06] 
+(ghippoda)Running: start machine [exec-time = 1e-06 ms] 
+(ghippoda)Running: boil_water [exec-time=0.002086] 
+(ghippoda)Running: make_coffe [exec-time=0.002086] 
+(ghippoda)Running: start machine [exec-time = 0.002086 ms] 
+(ghippoda)Running: boil_water [exec-time=0.004141] 
+(ghippoda)Running: make_coffe [exec-time=0.004141] 
+(ghippoda)Running: start machine [exec-time = 0.004141 ms] 
+(ghippoda)Running: boil_water [exec-time=0.006182] 
+(ghippoda)Running: make_coffe [exec-time=0.006182] 
+(ghippoda)Running: start machine [exec-time = 0.006182 ms] 
+(ghippoda)Running: boil_water [exec-time=0.008238] 
+(ghippoda)Running: make_coffe [exec-time=0.008238] 
+(ghippoda)Running: start machine [exec-time = 0.008238 ms] 
+(ghippoda)Running: make_coffe [exec-time=0.008238] 
+(ghippoda)Running: start machine [exec-time = 0.008238 ms] 
+(ghippoda)Running: add_water [exec-time=0.008239] 
+(ghippoda)Running: STARTMACHINE [exec-time = 0.0 ms] 
+(ghippoda)Running: make_coffe [exec-time=0.0] 
+(ghippoda)Running: start machine [exec-time = 0.0 ms] 
+(ghippoda)Running: boil_water [exec-time=0.0020440000000000002] 
+(ghippoda)Running: make_coffe [exec-time=0.002045] 
+(ghippoda)Running: start machine [exec-time = 0.002045 ms] 
+(ghippoda)Running: boil_water [exec-time=0.004107] 
+(ghippoda)Running: make_coffe [exec-time=0.004107] 
+(ghippoda)Running: start machine [exec-time = 0.004107 ms] 
+(ghippoda)Running: boil_water [exec-time=0.0061600000000000005] 
+(ghippoda)Running: make_coffe [exec-time=0.0061600000000000005] 
+(ghippoda)Running: start machine [exec-time = 0.0061600000000000005 ms] 
+(ghippoda)Running: boil_water [exec-time=0.008204000000000001] 
+(ghippoda)Running: make_coffe [exec-time=0.008204000000000001] 
+(ghippoda)Running: start machine [exec-time = 0.008204000000000001 ms] 
+(ghippoda)Running: make_coffe [exec-time=0.008204000000000001] 
+(ghippoda)Running: start machine [exec-time = 0.008204000000000001 ms] 
+(ghippoda)Running: add_water [exec-time=0.008204000000000001] 
