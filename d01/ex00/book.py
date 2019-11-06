@@ -1,11 +1,12 @@
 from recipe import Recipe
-
+import datetime
+import time
 
 class Book:
     def __init__(self):
         self.name = ""
         self.last_update = ""
-        self.creation_date = ""
+        self.creation_date = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
         self.recipes_list = {
             "starter": {},
             "lunch": {},
@@ -13,7 +14,6 @@ class Book:
         }
 
     def get_recipe_by_name(self, name):
-        print("GET RECEP", name)
         for elem in self.recipes_list.keys():
             if self.recipes_list[elem].get(name):
                 display = str(self.recipes_list[elem][name])
@@ -31,5 +31,6 @@ class Book:
                 error += recipe.recipe_type + " meal"
                 print(error)
             self.recipes_list[recipe.recipe_type][recipe.name] = recipe
+            self.last_update = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
         else:
             print("Not ok")

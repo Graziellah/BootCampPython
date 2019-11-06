@@ -1,0 +1,47 @@
+INFO:root:start machine
+INFO:root:boil_water
+INFO:root:make_coffe
+INFO:root:add_water
+INFO:root:start machine
+INFO:root:boil_water
+INFO:root:make_coffe
+INFO:root:add_water
+INFO:root:start machine
+INFO:root:boil_water
+INFO:root:make_coffe
+INFO:root:add_water
+(INFO)Running: start machine 
+(INFO)Running: boil_water 
+(INFO)Running: make_coffe 
+(INFO)Running: add_water 
+(root)Running: start machine 
+(root)Running: boil_water 
+(root)Running: make_coffe 
+(root)Running: add_water 
+(root)Running: boil_water 
+(root)Running: make_coffe 
+(root)Running: add_water 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: boil_water 
+(root)Running: make_coffe 
+(root)Running: add_water 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: boil_water 
+(root)Running: make_coffe 
+(root)Running: add_water 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 
+(root)Running: start machine [exec-time=0.0] 

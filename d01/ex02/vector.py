@@ -22,11 +22,65 @@ class Vector:
             self.size = len(self.values)
         print("slef", self.values, self.size)
 
-        def __add__(self, other):
-            sumValue = []
-            for i in self.values:
-                result = self.values + other
+    def __add__(self, other):
+        sumValue = []
+        if isinstance(other, Vector):
+            print('is vector')
+        else:
+            for i in range(0, self.size):
+                result = self.values[i]+ other
                 sumValue.append(result)
             return Vector(sumValue)
+
+    def __radd__(self, other):
+        return Vector.__add__(self, other)
+    
+    def __sub__(self, other):
+        sumValue = []
+        if isinstance(other, Vector):
+            print('is vector')
+        else:
+            for i in range(0, self.size):
+                result = self.values[i] - other
+                sumValue.append(result)
+            return Vector(sumValue)
+
+    def __rsub__(self, other):
+        return self.__sub__(other)
+    
+    def __mul__(self, other):
+        sumValue = []
+        if isinstance(other, Vector):
+            print('is vector')
+        else:
+            for i in range(0, self.size):
+                result = self.values[i] * other
+                sumValue.append(result)
+            return Vector(sumValue)
+
+    def __rmul__(self, other):
+        return Vector.__mul__(self, other)
+    
+    def __truediv__(self, other):
+        sumValue = []
+        if isinstance(other, Vector):
+            print('is vector')
+        else:
+            for i in range(0, self.size):
+                result = self.values[i] * other
+                sumValue.append(result)
+            return Vector(sumValue)
+
+    def __rtruediv__(self, other):
+        return Vector.__truediv__(self, other)
+
+    def __str__(self):
+        return "Vector " +  str(self.values)
+    
+    def __repr__(self):
+        return {
+            'values': self.values,
+            'size': self.size
+        }
 
 
