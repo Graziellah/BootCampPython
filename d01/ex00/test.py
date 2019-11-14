@@ -45,21 +45,16 @@ class Alphabet:
     # setting the values     
     @value.setter 
     def value(self, value): 
-        print('Setting value to ' + value) 
         self._value = value 
           
     # deleting the values 
     @value.deleter 
     def value(self): 
-        print('Deleting value') 
         del self._value 
   
   
 # passing the value 
-x = Alphabet('Peter') 
-print(x.value) 
-  
+x = Alphabet('Peter')   
 x.value = 'Diesel'
-  
 del x.value 
 

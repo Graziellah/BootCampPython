@@ -3,7 +3,7 @@ from random import randint
 import logging
 import getpass
 username = getpass.getuser()
-
+#WIP
 formattage  =  '(' + username + ')Running: %(message)s '
 logging.basicConfig(filename='machine.log',level=logging.DEBUG, format=formattage)
 #formatter = logging.Formatter('%(asctime)s :: %(levelname)s :Running : %(message)s')

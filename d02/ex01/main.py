@@ -1,5 +1,4 @@
 def what_are_the_vars(*args, **kwargs):
-    """Your code"""
     obj = ObjectC()
 
     for key in kwargs.keys():

@@ -11,12 +11,10 @@ class Recipe:
     
     @property
     def cooking_level(self):
-        print("Getting Value")
         return self._cooking_level
 
     @cooking_level.setter
     def cooking_level(self, cooking_level):
-        print("Setting Value")
         if isinstance(self.cooking_level, int):
             if self.cooking_level in range(1, 6):
                 self._cooking_level = cooking_level
